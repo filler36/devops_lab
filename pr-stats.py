@@ -10,14 +10,16 @@ if __name__ == "__main__":
         if str(sys.argv[1]) == "--help":
             print("------------THIS IS HELP PAGE------------.")
             print("To get statistics execute the program with keys:")
-            print("./pr-stats.py <yours username> <username of repo owner> <repository>")
+            print("./pr-stats.py <yours username> <username of repo owner>\
+<repository>")
             print("------------------------------------------")
             exit()
         if str(sys.argv[1]) == "--version":
             print("pr-stats.py by Filip Chkhaidze, v0.1, EPAM Systems 2019")
             exit()
         if len(sys.argv) < 4:
-            print("Not enough arguments. Please, see the help page with --help option")
+            print("Not enough arguments. Please, see the help page with\
+--help option")
             exit()
     except IndexError:
         print("No arguments. Please, see the help page with --help option")
