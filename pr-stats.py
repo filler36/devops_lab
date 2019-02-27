@@ -44,7 +44,6 @@ try:
         print("Updated_at: %s" % r[i]['head']['repo']['updated_at'])
         print("Closed_at: %s" % r[i]['closed_at'])
         print("Watchers: %s" % r[i]['head']['repo']['watchers'])
-
         print("Size: %s" % r[i]['head']['repo']['size'])
         print("-----------------------------------------------")
 except IndexError:
