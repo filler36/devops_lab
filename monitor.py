@@ -25,7 +25,7 @@ class Mon:
             with open('data.json', 'a') as outfile:
                 json.dump({'SNAPSHOT ' + str(self.counter): timestamp,
                            'CPU_LOAD_%': cpu_load,
-                           'MEM_TOTAL_IN_GB': 
+                           'MEM_TOTAL_IN_GB':
                                float("{:.2f}".format(mem_total)),
                            'MEM_USED_IN_GB': float("{:.2f}".format(mem_used)),
                            'READ_COUNT': disk_io[0],
