@@ -7,3 +7,6 @@ INTERVAL = 300
 
 # SET DATE AND TIME FORMAT
 TIME_FORMAT = '%d-%m-%Y_%H:%M:%S'
+
+# SET OUTPUT TYPE to json or txt
+OUTPUT = 'txt'
