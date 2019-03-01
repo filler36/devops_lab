@@ -6,6 +6,7 @@ def calc(x, y, z, n):
     print(ar)
     return ar
 
+
 x = int(input())
 y = int(input())
 z = int(input())
